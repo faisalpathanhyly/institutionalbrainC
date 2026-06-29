@@ -1,0 +1,55 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Knowledge Asset Metadata",
+  "description": "Standard metadata schema for all knowledge assets in the Hyly Institutional Brain",
+  "type": "object",
+  "required": ["title", "version", "status", "owner", "domain", "created", "updated"],
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Human-readable name of the knowledge asset"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "description": "Semantic version (MAJOR.MINOR.PATCH)"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "active", "under-review", "deprecated"],
+      "description": "Current lifecycle status"
+    },
+    "owner": {
+      "type": "string",
+      "description": "Person responsible for this asset"
+    },
+    "domain": {
+      "type": "string",
+      "description": "Knowledge domain this asset belongs to"
+    },
+    "created": {
+      "type": "string",
+      "format": "date",
+      "description": "Creation date (YYYY-MM-DD)"
+    },
+    "updated": {
+      "type": "string",
+      "format": "date",
+      "description": "Last updated date (YYYY-MM-DD)"
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Descriptive tags for discoverability"
+    },
+    "consumers": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Systems or platforms consuming this asset (e.g. s-academy, ai-tutor)"
+    },
+    "deprecated_note": {
+      "type": "string",
+      "description": "Required if status is deprecated. Explains why and what replaced it."
+    }
+  }
+}

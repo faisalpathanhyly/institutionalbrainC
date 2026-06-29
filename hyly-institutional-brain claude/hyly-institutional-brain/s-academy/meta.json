@@ -1,0 +1,16 @@
+{
+  "title": "S.Academy",
+  "version": "0.1.0",
+  "status": "draft",
+  "owner": "Debarchana",
+  "description": "AI-backed learning platform consuming knowledge from the Hyly Institutional Brain",
+  "created": "2025-01-01",
+  "updated": "2025-01-01",
+  "domains": {
+    "multifamily-industry": "active",
+    "client-intelligence": "active",
+    "ai-intelligence": "active",
+    "partner-integrations": "scaffolded",
+    "competitor-intelligence": "scaffolded"
+  }
+}

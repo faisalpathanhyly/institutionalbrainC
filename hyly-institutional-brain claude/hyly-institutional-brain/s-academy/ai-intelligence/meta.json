@@ -1,0 +1,11 @@
+{
+  "title": "AI Intelligence",
+  "version": "0.1.0",
+  "status": "draft",
+  "owner": "TBD",
+  "domain": "ai-intelligence",
+  "created": "2025-01-01",
+  "updated": "2025-01-01",
+  "tags": ["ai", "machine learning", "prompts", "tools", "automation"],
+  "consumers": ["s-academy", "ai-tutor", "knowledge-management-team"]
+}

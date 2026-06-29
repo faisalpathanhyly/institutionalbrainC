@@ -1,0 +1,12 @@
+{
+  "title": "Competitor Intelligence",
+  "version": "0.0.1",
+  "status": "draft",
+  "owner": "TBD",
+  "domain": "competitor-intelligence",
+  "created": "2025-01-01",
+  "updated": "2025-01-01",
+  "tags": ["competitors", "market", "positioning", "intelligence"],
+  "consumers": [],
+  "notes": "Scaffolded domain. Not active in MVP. Do not populate without Repository Owner approval."
+}

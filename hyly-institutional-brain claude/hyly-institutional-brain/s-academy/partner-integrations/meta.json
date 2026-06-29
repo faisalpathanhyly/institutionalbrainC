@@ -1,0 +1,12 @@
+{
+  "title": "Partner Integrations",
+  "version": "0.0.1",
+  "status": "draft",
+  "owner": "TBD",
+  "domain": "partner-integrations",
+  "created": "2025-01-01",
+  "updated": "2025-01-01",
+  "tags": ["partners", "integrations", "ecosystem"],
+  "consumers": [],
+  "notes": "Scaffolded domain. Not active in MVP. Do not populate without Repository Owner approval."
+}

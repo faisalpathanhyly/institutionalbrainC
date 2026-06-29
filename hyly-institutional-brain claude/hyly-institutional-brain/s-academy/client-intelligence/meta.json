@@ -1,0 +1,11 @@
+{
+  "title": "Client Intelligence",
+  "version": "0.1.0",
+  "status": "draft",
+  "owner": "TBD",
+  "domain": "client-intelligence",
+  "created": "2025-01-01",
+  "updated": "2025-01-01",
+  "tags": ["clients", "csm", "accounts", "intelligence"],
+  "consumers": ["s-academy", "ai-tutor", "csm-team"]
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Multifamily Industry",
+  "version": "0.1.0",
+  "status": "draft",
+  "owner": "TBD",
+  "domain": "multifamily-industry",
+  "created": "2025-01-01",
+  "updated": "2025-01-01",
+  "tags": ["multifamily", "real estate", "industry", "proptech"],
+  "consumers": ["s-academy", "ai-tutor"]
+}
